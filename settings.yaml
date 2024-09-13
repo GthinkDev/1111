@@ -36,7 +36,7 @@ site_info:
 qq:
     app_id: "2424242"
     key: "2342424242"
-    redirect: ""
+    redirect: https://ru4fiibks.hn-bkt.clouddn.com/
 qi_niu:
     access_key: 87It41LCRnj9XNzxnvP29IUitbqhrjvpxmM_HnPq
     secret_key: auE2u-0wpDrL1p9tcT0t9Y1i-6sNvgKx-FRHf_oN
@@ -45,12 +45,12 @@ qi_niu:
     zone: z2
     size: 2
 jwt:
-    secret: ""
+    secret: 1LCRnj9XNzxnvP29IUitbqhrjvpxmM_HnPq
     expires: 0
-    issuer: ""
+    issuer: 1LCRnj9XNzxnvP29IUitbqhrjvpxmM_HnPq
 email:
-    host: "11111"
-    port: 0
+    host: 0.0.0.0
+    port: 3000
     user: DeMaster
     password: '******'
     default_from_email: gthinkdesign520@gmail.com
