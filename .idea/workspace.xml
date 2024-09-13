@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad272d9-ba6f-4c51-8cea-5410d2372c77" name="更改" comment="12" />
+    <list default="true" id="0ad272d9-ba6f-4c51-8cea-5410d2372c77" name="更改" comment="12">
+      <change afterPath="$PROJECT_DIR$/api/qq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeMaster" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeMaster.pub" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +36,12 @@
     &quot;assignee&quot;: &quot;GthinkDev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GthinkDev/gin-blog.git&quot;,
-    &quot;accountId&quot;: &quot;5f8637c2-3c30-4bbd-8a30-e58852e09e23&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:GthinkDev/1111.git",
+    "accountId": "5f8637c2-3c30-4bbd-8a30-e58852e09e23"
   }
-}</component>
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -63,6 +67,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/Users/gthinkdev",
