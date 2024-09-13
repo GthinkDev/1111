@@ -8,6 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeMaster" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DeMaster.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/qq.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/SettingsRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/SettingsRouter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -12,8 +12,32 @@ import (
 type SettingsApi struct {
 }
 
+type Uri struct {
+	Name string `uri:"name"` // 路由参数
+}
+
 func (s SettingsApi) SettingsInfoView(c *gin.Context) {
-	res.OkWithData(global.Config.SiteInfo, c)
+	cr := Uri{}
+	err := c.ShouldBindUri(&cr)
+	if err != nil {
+		res.FailWithCode(res.ErrorParams, c)
+		return
+	}
+	switch cr.Name {
+	case "site":
+		res.OkWithData(global.Config.SiteInfo, c)
+	case "email":
+		res.OkWithData(global.Config.Email, c)
+	case "qiniu":
+		res.OkWithData(global.Config.QiNiu, c)
+	case "qq":
+		res.OkWithData(global.Config.QQ, c)
+	case "jwt":
+		res.OkWithData(global.Config.Jwt, c)
+	default:
+		res.FailWithMessage("参数错误", c)
+
+	}
 }
 
 func (s SettingsApi) SettingsInfoUpdateView(c *gin.Context) {
