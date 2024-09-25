@@ -22,6 +22,7 @@ func InitRouter() *gin.Engine {
 	// 注册路由-系统配置 Api
 	routerGroup := RouterGroup{v1}
 	routerGroup.SettingsRouter()
+	routerGroup.ImagesRouter()
 
 	return r
 }

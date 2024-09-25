@@ -18,26 +18,27 @@ system:
     host: 127.0.0.1
     port: "8085"
 site_info:
-    created_at: "2024-09-12"
-    icp: 鄂ICP备2024040786号-1
-    title: 呙博文的博客
-    qq_image: https://masterde.top/qq_image
-    wechat_image: https://masterde.top/wechat_image
-    version: 1.0.01
+    created_at: "2024-09-24"
+    icp: 127.0.0.0
+    title: DeMaster的个人博客
+    qq_image: nil
+    wechat_image: nil
+    version: 1.0.1
     email: gthinkdesign520@gmail.com
-    phone: 189-0867-9191
-    name: DeMaster
-    job: 项目经理/UI设计师
-    addr: 湖北襄阳
+    phone: 189 0867 9191
+    name: 呙博文
+    job: ' UI|UX|项目经理'
+    addr: 127.0.0.0
     slogan: DeMaster
     slogan_en: DeMaster
-    web: demaster.top
-    github_url: gthinkdesign666@gmail.com
+    web: ' www.masterde.top'
+    github_url: gthinkdesign520@gmail.com
 qq:
     app_id: "2424242"
     key: "2342424242"
     redirect: https://ru4fiibks.hn-bkt.clouddn.com/
 qi_niu:
+    enable: false
     access_key: 87It41LCRnj9XNzxnvP29IUitbqhrjvpxmM_HnPq
     secret_key: auE2u-0wpDrL1p9tcT0t9Y1i-6sNvgKx-FRHf_oN
     bucket: gbw-go-blog
@@ -56,3 +57,6 @@ email:
     default_from_email: gthinkdesign520@gmail.com
     use_ssl: true
     user_tls: true
+upload:
+    size: 2
+    save_path: /uploads/file
